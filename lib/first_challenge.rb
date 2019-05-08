@@ -1,5 +1,8 @@
 require "pry"
 
+  
+  
+def first_challenge(contacts)
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -13,9 +16,6 @@ require "pry"
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  
-def first_challenge(contacts)
-
   
   contacts.each do |person, data|
     if person == "Freddy Mercury"
